@@ -8,4 +8,4 @@ def main(fruits,x,i):
     Returns:
         list: return answer
     """
-    return
+    return fruits[:i] + [x] + fruits[i:]
