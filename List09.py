@@ -6,4 +6,4 @@ def main(fruits):
     Returns:
         list: return answer
     """
-    return [i for i, x in enumerate(fruits) if x == 'apple']
+    return fruits.index('apple')
