@@ -9,9 +9,10 @@ def main(fruits):
     Returns:
         list: return answer
     """
-    for i in fruits:
-        if i == 'apple':
-            fruits.remove(i)
-    return fruits
+    fruits = set(fruits)
+    fruits.remove('apple')
 
-print(main(["apple", "banana", "apple", "pear", "apple"]))
+
+    return list(fruits)
+
+print(main(["apple", "apple", "apple", "apple", "kiwi"]))
