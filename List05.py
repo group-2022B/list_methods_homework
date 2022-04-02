@@ -9,4 +9,4 @@ def main(numbers1, numbers2):
     Returns:
         list: return answer
     """
-    return
+    return numbers1 + numbers2

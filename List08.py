@@ -1,3 +1,6 @@
+import re
+
+
 def main(fruits):
     """
     A list called "fruits" is given and is five in length and contains at least one "apple". Remove the apples from the list and return the list.
@@ -6,4 +9,17 @@ def main(fruits):
     Returns:
         list: return answer
     """
-    return
+    if 'apple' in fruits:
+        fruits.remove('apple')
+    if 'apple' in fruits:
+        fruits.remove('apple')
+    if 'apple' in fruits:
+        fruits.remove('apple')
+    if 'apple' in fruits:
+        fruits.remove('apple')
+    if 'apple' in fruits:
+        fruits.remove('apple')
+
+    return fruits
+
+print(main(["apple", "banana", "apple", "pear", "apple"]))
